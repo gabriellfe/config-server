@@ -9,8 +9,11 @@ eureka:
       
 okta:
   oauth2:
-    issuer: https://dev-15585796.okta.com/oauth2/default
+    issuer: https://dev-56986490.okta.com/oauth2/default
     audience: api://default
+    client-id: 0oadpahd6mHnrmpgw5d7
+    client-secret: eI2THAvlUfCzwaezyagi2HUOQ1H7KccHgUTfLjF6NHuMrfZmHdyowcP4rmqF_SDq
+    scopes: openid, email, profile, offline_access
 spring:
   zipkin:
     baseUrl: http://zipkin-svc:9411
