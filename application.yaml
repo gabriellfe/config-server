@@ -16,4 +16,4 @@ okta:
     scopes: openid, email, profile, offline_access
 spring:
   zipkin:
-    baseUrl: http://zipkin-svc:9411
+    baseUrl: http://teste-svc:9411
